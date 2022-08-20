@@ -80,8 +80,8 @@ contract Auction {
         */
         
         // ** Start code here. 2 lines approximately. **/
-     require(tokenDetails[msg.sender].remainingTokens >= _count && tokenDetails[msg.sender].remainingTokens > 0);
-require(_itemId <= 2);
+        require(tokenDetails[msg.sender].remainingTokens >= _count && tokenDetails[msg.sender].remainingTokens > 0);
+        require(_itemId <= 2);
 
         //** End code here. **
         
